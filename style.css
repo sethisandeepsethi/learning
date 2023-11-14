@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+:root {
+    --primary-color: #f59e0b;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,4 +16,22 @@ body {
 .container-center {
     max-width: 600px;
     margin:auto;
+}
+
+.link {
+    text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.link-secondry {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
 }
