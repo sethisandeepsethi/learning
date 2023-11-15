@@ -35,3 +35,58 @@ body {
     border-radius: 0.5rem;
     border: 2px solid var(--primary-color);
 }
+
+.list-no-bullets{
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 5rem;
+    padding: 1rem;
+    color: black;
+}
+
+.navigation .link {
+    color: black;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-pill {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-briefing {
+    color: var(--primary-color);
+    font-weight: bolder;
+    text-align: center;
+}
+
+
