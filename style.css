@@ -114,9 +114,14 @@ body {
     text-align: center;
 }
 
-.footer .link{
-    color: black;
+.footer .footer-heading {
+    font-weight: bold;
     text-decoration: underline;
+}
+
+.footer .link{
+    color: blue;
+    text-decoration: none;
 }
 
 .footer ul {
